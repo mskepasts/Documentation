@@ -100,10 +100,10 @@ _In this part you will download github desktop. You will use this to get some re
         Second time: [https://github.com/augmentedfabricationlab/assembly\_information\_model](https://github.com/augmentedfabricationlab/assembly_information_model) <br/> _These files will help with creating the robot inside rhino_
     4) Make sure that the local path is correct. Depending on which repository you are downloading it should look something like ```C:\Users\name\Documents\GitHub\ur_online_control (or assembly_information_model)``` in Windows and ```\Users\name\Documents\GitHub\assembly_information_model``` in Mac
     5) _(Optional)_ If you created a subfolder change path to ```...\Documents\GitHub\name of your subfolder\ur_online_control (same with assembly_information_model)``` 
+    <img src="screenGIFs/git clone.gif" width="40%">
 
 
-
-4. If these repositories need to be updated you can simply do it with GitHub desktop.
+4) If these repositories need to be updated you can simply do it with GitHub desktop.
      1. First hit the down arrow beside the current repository and navigate to one of the two we cloned in the steps above.
      2. GitHub will automatically check to see if the files have been updated. If for some reason it does not, simply click Fetch origin.
      3. If there is an update, you see a blue box that says pull origin. Click that box and GitHub will update your files so that they match the creator&#39;s. This is why cloning is super useful!
