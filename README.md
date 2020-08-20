@@ -21,10 +21,10 @@ _In this part you will download anaconda a python distribution. By downloading a
 
 _In this part you will use the command prompt (terminal if on mac) to install compas and compas\_fab (frameworks that will help you visualize the robots in rhino using grasshopper and python). You can read more about COMPAS and COMPAS\_FAB here:_ [_Compas\_fab_](https://gramaziokohler.github.io/compas_fab/latest/overview.html)_,_ [_Compas_](https://compas.dev/compas/index.html)_. For this installation we will be using a command prompt specific to anaconda (the program we installed in the previous step). It may look intimidating at first. However, once you understand how to use the command prompt/terminal, it can be a very useful tool. If you want to read more about why developers use the command prompt/terminal check_ _[this article](https://www.digitalcitizen.life/what-is-cmd)._
 
-1. Open the anaconda prompt as an administrator <br/>
-    1. Windows: type anaconda prompt in the windows search bar  <br/>
+1. Open the anaconda prompt as an administrator <br/> <br/>
+    1. Windows: type anaconda prompt in the windows search bar 
      &nbsp; &nbsp; &nbsp; &nbsp;<img src="screenshots/commandPrompt.png" width="40%"> <br/>
-    2. Mac: Open Launchpad, then click the terminal icon. <br/>
+    2. Mac: Open Launchpad, then click the terminal icon. 
      &nbsp; &nbsp; &nbsp; &nbsp;<img src="screenshots/terminal.png" width="40%"> <br/>
 2. Now we will use the prompt to install compas and compas\_fab. In the anaconda prompt/terminal type in each of these lines found below (hitting enter after each line). You can optionally copy and paste **all** of the lines. Either use (_crtl v / cmd v_) depending on your computer. If that does not work try right clicking.
 
