@@ -3,9 +3,9 @@
 
 _In this part you will download anaconda a python distribution. By downloading anaconda you receive everything you need to run python. If you are wondering what python is, it is a programing language. Here is python.org&#39;s_ [_definition_](https://www.python.org/doc/essays/blurb/)_._
 
-1. Go to page: [https://www.anaconda.com/products/individual](https://www.anaconda.com/products/individual) 
-    1. Hit Download to take you to the location of the installation files 
-    2. Install appropriate version<br/> <br/>
+1) Go to page: [https://www.anaconda.com/products/individual](https://www.anaconda.com/products/individual)
+    1) Hit Download to take you to the location of the installation files 
+    2) Install appropriate version<br/> <br/>
        Mac users: graphical installer<br/>
        Window users: download the appropriate version  
       (If unsure of which version go to _Start button > Settings > System > About_)<br/> <br/>
@@ -21,7 +21,7 @@ _In this part you will download anaconda a python distribution. By downloading a
 
 _In this part you will use the command prompt (terminal if on mac) to install compas and compas\_fab (frameworks that will help you visualize the robots in rhino using grasshopper and python). You can read more about COMPAS and COMPAS\_FAB here:_ [_Compas\_fab_](https://gramaziokohler.github.io/compas_fab/latest/overview.html)_,_ [_Compas_](https://compas.dev/compas/index.html)_. For this installation we will be using a command prompt specific to anaconda (the program we installed in the previous step). It may look intimidating at first. However, once you understand how to use the command prompt/terminal, it can be a very useful tool. If you want to read more about why developers use the command prompt/terminal check_ _[this article](https://www.digitalcitizen.life/what-is-cmd)._
 
-1. Open the anaconda prompt as an administrator <br/> <br/>
+1. Open the anaconda prompt as an administrator
     1. Windows: type anaconda prompt in the windows search bar <br/>
      &nbsp; &nbsp; &nbsp; &nbsp;<img src="screenshots/commandPrompt.png" width="40%"> <br/>
     2. Mac: Open Launchpad, then click the terminal icon. <br/>
@@ -93,8 +93,8 @@ _In this part you will download github desktop. You will use this to get some re
     1. This is where the repositories at default will be saved
     2. If you want you can create a subfolder for the repositories from this class (see part 3. v.)
 3. Now we will clone two repositories that will allow us to us grasshopper and python to communicate to the robots <br/>
-  To clone each repository it is going to be the same process except for the step iii.
-    1.o to file and select clone repository
+_(To clone each repository it is going to be the same process except for the step iii.)_
+    1. to file and select clone repository
     2. In the new window select the URL option
     3. Under repository URL type
 
