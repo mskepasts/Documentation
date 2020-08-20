@@ -97,10 +97,8 @@ _(To clone each repository it is going to be the same process except for the ste
     1. to file and select clone repository
     2. In the new window select the URL option
     3. Under repository URL type
-
-First time: [https://github.com/augmentedfabricationlab/ur\_online\_control.git](https://github.com/augmentedfabricationlab/ur_online_control.git)_These files will help you connect to the robots_
-
-Second time: [https://github.com/augmentedfabricationlab/assembly\_information\_model](https://github.com/augmentedfabricationlab/assembly_information_model)_These files will help with creating the robot inside rhino_
+        First time: [https://github.com/augmentedfabricationlab/ur\_online\_control.git](https://github.com/augmentedfabricationlab/ur_online_control.git) _These files will help you connect to the robots_
+        Second time: [https://github.com/augmentedfabricationlab/assembly\_information\_model](https://github.com/augmentedfabricationlab/assembly_information_model) _These files will help with creating the robot inside rhino_
 
     1. Make sure that the local path is correct. Depending on which repository you are downloading it should look something like C:\Users\name\Documents\GitHub\_ur\_online\_control (or assembly\_information\_model)_ in Windows and \Users\name\Documents\GitHub\_assembly\_information\_model_ in Mac
     2. (Optional) If you created a subfolder change path to &quot;...\Documents\GitHub\_name of your subfolder_\_ur\_online\_control (assembly\_information\_model)&quot;_
