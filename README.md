@@ -46,24 +46,24 @@ _Explained below is what each line is does:_
 ```console 
 (base) conda config --add channels conda-forge 
 ```
-   &nbsp; &nbsp; &nbsp; &nbsp;Adds the package conda-forge: _[https://conda-forge.org/#about](https://conda-forge.org/#about)_ <br/> <br/> 
+Adds the package conda-forge: _[https://conda-forge.org/#about](https://conda-forge.org/#about)_ <br/> <br/> 
 ```console 
 (base) conda remove --name your\_env\_name --all 
 ``` 
-  &nbsp; &nbsp; &nbsp; &nbsp;Removes any environment with that name in preparation to create new one with updated version of python compas and compas\_fab <br/>  <br/>
+Removes any environment with that name in preparation to create new one with updated version of python compas and compas\_fab <br/>  <br/>
  ```console 
  (base) conda create -n your\_env\_name python=3.6 compas compas\_fab --yes 
  ``` 
-   &nbsp; &nbsp; &nbsp; &nbsp;Creates a new python environment and installs compas and compas\_fab <br/>  <br/>
+Creates a new python environment and installs compas and compas\_fab <br/>  <br/>
  ```console 
  (base) conda activate your\_env\_name
  ``` 
-   &nbsp; &nbsp; &nbsp; &nbsp;Actives the environment created in the previous step  <br/><br/> 
+Actives the environment created in the previous step  <br/><br/> 
    ```console 
    (your\_env\_name) python -m compas\_rhino.install 
    (your\_env\_name) python -m compas\_fab.rhino.install -v 6.0 
    ```
-   &nbsp; &nbsp; &nbsp; &nbsp; Installs compas and compas_fab for rhino <br/><br/> 
+Installs compas and compas_fab for rhino <br/><br/> 
 
 3. Finally check to make sure that the installation worked by typing/copying and pasting the following code: <br/>
 
