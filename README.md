@@ -9,7 +9,7 @@ _In this part you will download anaconda a python distribution. By downloading a
       &nbsp; &nbsp; &nbsp; &nbsp; i. Mac users: graphical installer<br/>
       &nbsp; &nbsp; &nbsp; &nbsp; ii. Window users: download the appropriate version <br/>
       &nbsp; &nbsp; &nbsp; &nbsp; (If unsure of which version go to _Start button > Settings > System > About_)<br/>
-      &nbsp; &nbsp; &nbsp; &nbsp;<img src="https://github.com/mskepasts/Documentation/blob/master/screenGIFs/windows%20version.gif" width="40%"><br/>
+      &nbsp; &nbsp; &nbsp; &nbsp;<img src="screenGIFs/windows%20version.gif" width="40%"><br/>
 
 2. Open the Anaconda3 installer <br/>
   a. Use default settings: <br/>
@@ -23,9 +23,12 @@ _In this part you will download anaconda a python distribution. By downloading a
 _In this part you will use the command prompt (terminal if on mac) to install compas and compas\_fab (frameworks that will help you visualize the robots in rhino using grasshopper and python). You can read more about COMPAS and COMPAS\_FAB here:_ [_Compas\_fab_](https://gramaziokohler.github.io/compas_fab/latest/overview.html)_,_ [_Compas_](https://compas.dev/compas/index.html)_. For this installation we will be using a command prompt specific to anaconda (the program we installed in the previous step). It may look intimidating at first. However, once you understand how to use the command prompt/terminal, it can be a very useful tool. If you want to read more about why developers use the command prompt/terminal check_ _[this article](https://www.digitalcitizen.life/what-is-cmd)._
 
 1. Open the anaconda prompt as an administrator <br/>
-  a. Windows: type anaconda prompt in the windows search bar ![](RackMultipart20200820-4-13h5aym_html_42740cac297c1512.png) <br/>
-  b. Mac: Open Launchpad, then click the terminal icon. ![](RackMultipart20200820-4-13h5aym_html_77a6a82d320d1540.png)<br/>
+  a. Windows: type anaconda prompt in the windows search bar  <br/>
+  <img src="screenshots/commandPrompt.png" width="40%">
+  b. Mac: Open Launchpad, then click the terminal icon. <br/>
+  <img src="screenshots/terminal.png" width="40%">
 2. Now we will use the prompt to install compas and compas\_fab. In the anaconda prompt/terminal type in each of these lines found below (hitting enter after each line). You can optionally copy and paste **all** of the lines. Either use (_crtl v / cmd v_) depending on your computer. If that does not work try right clicking.
+
 ```console
 conda config --add channels conda-forge
 conda remove --name your_env_name --all
@@ -33,8 +36,6 @@ conda create -n your_env_name python=3.6 compas compas_fab --yes
 conda activate your_env_name
 python -m compas_rhino.install
 python -m compas_fab.rhino.install -v 6.0
-
-
 ```
 For the last two steps you will need to allow the anaconda prompt/terminal to make changes to local rhino files. So make sure you are logged in as an administrator.
 
@@ -43,16 +44,16 @@ For the last two steps you will need to allow the anaconda prompt/terminal to ma
 _Explained below is what each line is does:_
 
 ```console (base) conda config --add channels conda-forge ``` <br/>
-   Adds the package conda-forge: _[https://conda-forge.org/#about](https://conda-forge.org/#about)_ <br/> <br/> 
+   &nbsp; &nbsp; Adds the package conda-forge: _[https://conda-forge.org/#about](https://conda-forge.org/#about)_ <br/> <br/> 
  ```console (base) conda remove --name your\_env\_name --all ``` <br/> 
-  Removes any environment with that name in preparation to create new one with updated version of python compas and compas\_fab <br/>  <br/>
+  &nbsp; &nbsp;Removes any environment with that name in preparation to create new one with updated version of python compas and compas\_fab <br/>  <br/>
  ```console (base) conda create -n your\_env\_name python=3.6 compas compas\_fab --yes ``` <br/> 
-   Creates a new python environment and installs compas and compas\_fab <br/>  <br/>
+   &nbsp; &nbsp;Creates a new python environment and installs compas and compas\_fab <br/>  <br/>
  ```console (base) conda activate your\_env\_name``` <br/>
-   Actives the environment created in the previous step  <br/><br/> 
+   &nbsp; &nbsp;Actives the environment created in the previous step  <br/><br/> 
    ```console (your\_env\_name) python -m compas\_rhino.install ``` <br/>
    ```console (your\_env\_name) python -m compas\_fab.rhino.install -v 6.0 ``` <br/>
-    Installs compas and compas\_fab for rhino 
+    &nbsp; &nbsp;Installs compas and compas\_fab for rhino 
 
 1. Finally check to make sure that the installation worked by typing/copying and pasting the following code:
 
