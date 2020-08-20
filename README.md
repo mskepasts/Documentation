@@ -84,14 +84,14 @@ _In this step we are starting a python file, adding the package compas\_fab (whi
 
 _In this part you will download github desktop. You will use this to get some repositories from the web that will help you work with the robots in grasshopper. We are using github desktop to retrieve these files because we want to clone them instead of downloading them. Cloning is similar to downloading but has the option to update the files if they are changed by the creator._ ![](RackMultipart20200820-4-13h5aym_html_b5ed5bc59b1b939f.png)
 
-1. Download &amp; setup GitHub for desktop: [https://desktop.github.com](https://desktop.github.com/)
-    1. The proper type of GitHub should appear (i.e. mac, windows x64, etc.) however if it does not just download the appropriate version for your computer.
-    2. Click installer for Windows and double click the downloaded zip folder for Mac to install.
-    3. Open GitHub desktop.
-    4. If you have an account sign in. If not it is recommended that you make one.
-2. Go to documents and find the GitHub folder
-    1. This is where the repositories at default will be saved
-    2. If you want you can create a subfolder for the repositories from this class (see part 3. v.)
+1) Download &amp; setup GitHub for desktop: [https://desktop.github.com](https://desktop.github.com/)
+    1) The proper type of GitHub should appear (i.e. mac, windows x64, etc.) however if it does not just download the appropriate version for your computer.
+    2) Click installer for Windows and double click the downloaded zip folder for Mac to install.
+    3) Open GitHub desktop.
+    4) If you have an account sign in. If not it is recommended that you make one.
+2) Go to documents and find the GitHub folder
+    1) This is where the repositories at default will be saved
+    2) If you want you can create a subfolder for the repositories from this class (see part 3. v.)
 3) Now we will clone two repositories that will allow us to us grasshopper and python to communicate to the robots _(To clone each repository it is going to be the same process except for the step iii.)_
     1) to file and select clone repository
     2) In the new window select the URL option
