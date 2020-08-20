@@ -4,7 +4,7 @@
 _In this part you will download anaconda a python distribution. By downloading anaconda you receive everything you need to run python. If you are wondering what python is, it is a programing language. Here is python.org&#39;s_ [_definition_](https://www.python.org/doc/essays/blurb/)_._
 
 1. Go to page: [https://www.anaconda.com/products/individual](https://www.anaconda.com/products/individual) <br/>
-  a. Hit Download to take you to the location of the installation files 
+  a. Hit Download to take you to the location of the installation files <br/>
   b. Install appropriate version<br/>
       &nbsp; &nbsp; &nbsp; &nbsp; i. Mac users: graphical installer <br/> 
       &nbsp; &nbsp; &nbsp; &nbsp; ii. Window users: download the appropriate version  <br/> 
@@ -12,7 +12,7 @@ _In this part you will download anaconda a python distribution. By downloading a
       &nbsp; &nbsp; &nbsp; &nbsp; <img src="screenGIFs/windows%20version.gif" width="40%"><br/> 
 
 2. Open the Anaconda3 installer <br/>
-a. Use default settings:
+a. Use default settings:<br/>
      &nbsp; &nbsp; &nbsp; &nbsp; i. Install for: Just Me <br/>
       &nbsp; &nbsp; &nbsp; &nbsp; ii. Destination Folder: this can be wherever <br/>
       &nbsp; &nbsp; &nbsp; &nbsp; iii. Advance options: none <br/> 
@@ -39,7 +39,7 @@ python -m compas_fab.rhino.install -v 6.0
 ```
 For the last two steps you will need to allow the anaconda prompt/terminal to make changes to local rhino files. So make sure you are logged in as an administrator.
 
-![](RackMultipart20200820-4-13h5aym_html_b4abcb4f804bf9cd.gif)
+<img src="screenGIFs/download compas and compas_fab.gif" width="60%">
 
 _Explained below is what each line is does:_
 
@@ -76,7 +76,9 @@ You should see:
 ```console
 "0.11.0";
 ```
-_In this step we are starting a python file, adding the package compas\_fab (which we installed in the previous step) and requesting the package&#39;s version. You should have installed the most current package. So a version of 0.11.0 or newer should be printed on the screen._
+<img src="screenshots/versionCompas.png" width="100%">
+
+_In this step we are starting a python file, adding the package compas\_fab (which we installed in the previous step) and requesting the package&#39;s version. You should have installed the most current package. So a version of 0.11.0 or newer should be printed on the screen._ <br/><br/> 
 
     
 # **Part 3: Downloading github &amp; files needed to run robots from grasshopper**
