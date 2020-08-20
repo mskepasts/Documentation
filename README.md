@@ -111,19 +111,18 @@ _In this part you will download github desktop. You will use this to get some re
     
 # **Part 4: Adding these files to rhino**
 
-_In part 2 when we downloaded compas and compas\_fab we had to add them to rhino. We now need to do that for the repositories we cloned as currently rhino cannot access them._ ![](RackMultipart20200820-4-13h5aym_html_b91fa64935dfff8b.png)
+_In part 2 when we downloaded compas and compas\_fab we had to add them to rhino. We now need to do that for the repositories we cloned as currently rhino cannot access them._ !
 
 1) Open a new Rhino file
 2) Type editpythonscript into the command line ![](RackMultipart20200820-4-13h5aym_html_822c8d78f68079ae.png)
-    1. This will open the python\_editor.
+    1) This will open the python\_editor.
 3) Go to tools → options
 4) Add each src file from each of the two repositories installed
-    1. To do so hit add to search path (circled in red in photo)
-    2. Navigate through your folders to find one of the two repositories.
-    3. Click on the repositories folder. Find and select the src folder and hit okay
-    4. This should look like \Users\name\Documents\GitHub\ur_online_control\src or \Users\name\Documents\GitHub\assembly_information_mode\src
-    5. Then using the up arrow bring that path to the top of the list
-    6. Repeat with the second repository
-
+    1) To do so hit add to search path (circled in red in photo)
+    2) Navigate through your folders to find one of the two repositories.
+    3) Click on the repositories folder. Find and select the src folder and hit okay
+    4) This should look like \Users\name\Documents\GitHub\ur_online_control\src or \Users\name\Documents\GitHub\assembly_information_mode\src
+    5) Then using the up arrow bring that path to the top of the list
+    6) Repeat with the second repository
 5) Finally save the rhino file wherever you want. This makes it so that Rhino remembers the paths.
 6) Done!
