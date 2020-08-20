@@ -98,8 +98,8 @@ _In this part you will download github desktop. You will use this to get some re
     3) Under repository URL type <br/>
         First time: [https://github.com/augmentedfabricationlab/ur\_online\_control.git](https://github.com/augmentedfabricationlab/ur_online_control.git) <br/> _These files will help you connect to the robots_ <br/>
         Second time: [https://github.com/augmentedfabricationlab/assembly\_information\_model](https://github.com/augmentedfabricationlab/assembly_information_model) <br/> _These files will help with creating the robot inside rhino_
-    4) Make sure that the local path is correct. Depending on which repository you are downloading it should look something like "C:\Users\name\Documents\GitHub\*ur_online_control*" (or assembly\_information\_model)_ in Windows and \Users\name\Documents\GitHub\_assembly\_information\_model_ in Mac
-    5) _(Optional)_ If you created a subfolder change path to "...\Documents\GitHub\_name of your subfolder_\_ur\_online\_control (assembly\_information\_model)"
+    4) Make sure that the local path is correct. Depending on which repository you are downloading it should look something like ```C:\Users\name\Documents\GitHub\ur_online_control (or assembly_information_model)``` in Windows and ```\Users\name\Documents\GitHub\assembly_information_model``` in Mac
+    5) _(Optional)_ If you created a subfolder change path to ```...\Documents\GitHub\name of your subfolder\ur_online_control``` (same with assembly_information_model)
 
 
 
