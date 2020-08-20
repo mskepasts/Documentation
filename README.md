@@ -27,6 +27,7 @@ _In this part you will use the command prompt (terminal if on mac) to install co
   b. Mac: Open Launchpad, then click the terminal icon. ![](RackMultipart20200820-4-13h5aym_html_77a6a82d320d1540.png)<br/>
 2. Now we will use the prompt to install compas and compas\_fab. In the anaconda prompt/terminal type in each of these lines found below (hitting enter after each line). You can optionally copy and paste **all** of the lines. Either use (crtl v / cmd v) depending on your computer. If that does not work try right clicking.
 
+```console
 conda config --add channels conda-forge
 
 conda remove --name your\_env\_name --all
@@ -39,6 +40,7 @@ python -m compas\_rhino.install
 
 python -m compas\_fab.rhino.install -v 6.0
 
+```
 For the last two steps you will need to allow the anaconda prompt/terminal to make changes to local rhino files. So make sure you are logged in as an administrator.
 
 ![](RackMultipart20200820-4-13h5aym_html_b4abcb4f804bf9cd.gif)
