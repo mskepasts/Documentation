@@ -6,7 +6,10 @@ _In this part you will download anaconda a python distribution. By downloading a
 1. Go to page: [https://www.anaconda.com/products/individual](https://www.anaconda.com/products/individual) <br/>
   a. Hit Download to take you to the location of the installation files 
   b. Install appropriate version<br/>
-      &nbsp; &nbsp; &nbsp; &nbsp; <p> i. Mac users: graphical installer <br/> ii. Window users: download the appropriate version  <br/> (If unsure of which version go to _Start button > Settings > System > About_)<br/> <img src="screenGIFs/windows%20version.gif" width="40%"><br/> </p>
+      &nbsp; &nbsp; &nbsp; &nbsp; i. Mac users: graphical installer <br/> 
+      &nbsp; &nbsp; &nbsp; &nbsp; ii. Window users: download the appropriate version  <br/> 
+      &nbsp; &nbsp; &nbsp; &nbsp; (If unsure of which version go to _Start button > Settings > System > About_)<br/> 
+      &nbsp; &nbsp; &nbsp; &nbsp; <img src="screenGIFs/windows%20version.gif" width="40%"><br/> 
 
 2. Open the Anaconda3 installer <br/>
 a. Use default settings:
