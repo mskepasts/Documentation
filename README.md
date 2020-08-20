@@ -84,7 +84,7 @@ _In this step we are starting a python file, adding the package compas\_fab (whi
 
 _In this part you will download github desktop. You will use this to get some repositories from the web that will help you work with the robots in grasshopper. We are using github desktop to retrieve these files because we want to clone them instead of downloading them. Cloning is similar to downloading but has the option to update the files if they are changed by the creator._ ![](RackMultipart20200820-4-13h5aym_html_b5ed5bc59b1b939f.png)
 
-1) Download &amp; setup GitHub for desktop: [https://desktop.github.com](https://desktop.github.com/)
+1) Download &amp; setup GitHub for desktop: [https://desktop.github.com](https://desktop.github.com/) <img src="screenshots/GitHubLogo.png" width="10%">
     1) The proper type of GitHub should appear (i.e. mac, windows x64, etc.) however if it does not just download the appropriate version for your computer.
     2) Click installer for Windows and double click the downloaded zip folder for Mac to install.
     3) Open GitHub desktop.
@@ -100,7 +100,7 @@ _In this part you will download github desktop. You will use this to get some re
         Second time: [https://github.com/augmentedfabricationlab/assembly\_information\_model](https://github.com/augmentedfabricationlab/assembly_information_model) <br/> _These files will help with creating the robot inside rhino_
     4) Make sure that the local path is correct. Depending on which repository you are downloading it should look something like ```C:\Users\name\Documents\GitHub\ur_online_control (or assembly_information_model)``` in Windows and ```\Users\name\Documents\GitHub\assembly_information_model``` in Mac
     5) _(Optional)_ If you created a subfolder change path to ```...\Documents\GitHub\name of your subfolder\ur_online_control (same with assembly_information_model)``` <br/>
-    <img src="screenGIFs/git clone.gif" width="60%">
+    <img src="screenGIFs/git clone.gif" width="60%"> <br/>
 
 
 4) If these repositories need to be updated you can simply do it with GitHub desktop.
@@ -116,16 +116,17 @@ _In this part you will download github desktop. You will use this to get some re
 
 _In part 2 when we downloaded compas and compas\_fab we had to add them to rhino. We now need to do that for the repositories we cloned as currently rhino cannot access them._ !
 
-1) Open a new Rhino file
+1) Open a new Rhino file <img src="screenshots/RhinoLogo.png" width="10%"> <br/>
 2) Type editpythonscript into the command line ![](RackMultipart20200820-4-13h5aym_html_822c8d78f68079ae.png)
     1) This will open the python\_editor.
 3) Go to tools → options
 4) Add each src file from each of the two repositories installed
-    1) To do so hit add to search path (circled in red in photo)
+    1) To do so hit add to search path (circled in red in photo) <br/> <img src="screenshots/fileSearch.png" width="40%"> <br/>
     2) Navigate through your folders to find one of the two repositories.
     3) Click on the repositories folder. Find and select the src folder and hit okay
     4) This should look like \Users\name\Documents\GitHub\ur_online_control\src or \Users\name\Documents\GitHub\assembly_information_mode\src
     5) Then using the up arrow bring that path to the top of the list
-    6) Repeat with the second repository
+    6) Repeat with the second repository <br/>
+    <img src="screenGIFs/adding file to rhino.gif" width="60%"> <br/>
 5) Finally save the rhino file wherever you want. This makes it so that Rhino remembers the paths.
 6) Done!
