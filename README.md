@@ -92,16 +92,14 @@ _In this part you will download github desktop. You will use this to get some re
 2. Go to documents and find the GitHub folder
     1. This is where the repositories at default will be saved
     2. If you want you can create a subfolder for the repositories from this class (see part 3. v.)
-3. Now we will clone two repositories that will allow us to us grasshopper and python to communicate to the robots <br/>
-_(To clone each repository it is going to be the same process except for the step iii.)_
-    1. to file and select clone repository
-    2. In the new window select the URL option
-    3. Under repository URL type
-        First time: [https://github.com/augmentedfabricationlab/ur\_online\_control.git](https://github.com/augmentedfabricationlab/ur_online_control.git) _These files will help you connect to the robots_
-        Second time: [https://github.com/augmentedfabricationlab/assembly\_information\_model](https://github.com/augmentedfabricationlab/assembly_information_model) _These files will help with creating the robot inside rhino_
-
-    1. Make sure that the local path is correct. Depending on which repository you are downloading it should look something like C:\Users\name\Documents\GitHub\_ur\_online\_control (or assembly\_information\_model)_ in Windows and \Users\name\Documents\GitHub\_assembly\_information\_model_ in Mac
-    2. (Optional) If you created a subfolder change path to &quot;...\Documents\GitHub\_name of your subfolder_\_ur\_online\_control (assembly\_information\_model)&quot;_
+3) Now we will clone two repositories that will allow us to us grasshopper and python to communicate to the robots _(To clone each repository it is going to be the same process except for the step iii.)_
+    1) to file and select clone repository
+    2) In the new window select the URL option
+    3) Under repository URL type <br/>
+        First time: [https://github.com/augmentedfabricationlab/ur\_online\_control.git](https://github.com/augmentedfabricationlab/ur_online_control.git) <br/> _These files will help you connect to the robots_
+        Second time: [https://github.com/augmentedfabricationlab/assembly\_information\_model](https://github.com/augmentedfabricationlab/assembly_information_model) <br/> _These files will help with creating the robot inside rhino_
+    4) Make sure that the local path is correct. Depending on which repository you are downloading it should look something like C:\Users\name\Documents\GitHub\_ur\_online\_control (or assembly\_information\_model)_ in Windows and \Users\name\Documents\GitHub\_assembly\_information\_model_ in Mac
+    5) (Optional) If you created a subfolder change path to &quot;...\Documents\GitHub\_name of your subfolder_\_ur\_online\_control (assembly\_information\_model)&quot;_
 
 ![](RackMultipart20200820-4-13h5aym_html_b451ee9431b5a17d.gif)
 
