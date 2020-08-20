@@ -99,7 +99,7 @@ _In this part you will download github desktop. You will use this to get some re
         First time: [https://github.com/augmentedfabricationlab/ur\_online\_control.git](https://github.com/augmentedfabricationlab/ur_online_control.git) <br/> _These files will help you connect to the robots_ <br/>
         Second time: [https://github.com/augmentedfabricationlab/assembly\_information\_model](https://github.com/augmentedfabricationlab/assembly_information_model) <br/> _These files will help with creating the robot inside rhino_
     4) Make sure that the local path is correct. Depending on which repository you are downloading it should look something like ```C:\Users\name\Documents\GitHub\ur_online_control (or assembly_information_model)``` in Windows and ```\Users\name\Documents\GitHub\assembly_information_model``` in Mac
-    5) _(Optional)_ If you created a subfolder change path to ```...\Documents\GitHub\name of your subfolder\ur_online_control``` (same with assembly_information_model)
+    5) _(Optional)_ If you created a subfolder change path to ```...\Documents\GitHub\name of your subfolder\ur_online_control (same with assembly_information_model)``` 
 
 
 
@@ -115,18 +115,15 @@ _In part 2 when we downloaded compas and compas\_fab we had to add them to rhino
 
 1. Open a new Rhino file
 2. Type editpythonscript into the command line ![](RackMultipart20200820-4-13h5aym_html_822c8d78f68079ae.png)
-  1. This will open the python\_editor.
+    1. This will open the python\_editor.
 3. Go to tools → options
 4. Add each src file from each of the two repositories installed
+    1. To do so hit add to search path (circled in red in photo)
+    2. Navigate through your folders to find one of the two repositories.
+    3. Click on the repositories folder. Find and select the src folder and hit okay
+    4. This should look like \Users\name\Documents\GitHub\ur_online_control\src or \Users\name\Documents\GitHub\assembly_information_mode\src
+    5. Then using the up arrow bring that path to the top of the list
+    6. Repeat with the second repository
 
-  1. To do so hit add to search path (circled in red in photo)
-  2. Navigate through your folders to find one of the two repositories.
-  3. Click on the repositories folder. Find and select the src folder and hit okay
-  4. This should look like \Users\name\Documents\GitHub\ur\_online\_control\srcor \Users\name\Documents\GitHub\assembly\_information\_mode\src
-  5. Then using the up arrow bring that path to the top of the list
-  6. Repeat with the second repository
-
-![](RackMultipart20200820-4-13h5aym_html_9f070b4a366df3ba.gif)
-
-1. Finally save the rhino file wherever you want. This makes it so that Rhino remembers the paths.
-2. Done!
+5. Finally save the rhino file wherever you want. This makes it so that Rhino remembers the paths.
+6. Done!
