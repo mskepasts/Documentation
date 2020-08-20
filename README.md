@@ -42,7 +42,7 @@ For the last two steps you will need to allow the anaconda prompt/terminal to ma
 <img src="screenGIFs/download compas and compas_fab.gif" width="60%">
 
 _Explained below is what each line is does:_
-
+* * *
 ```console 
 (base) conda config --add channels conda-forge 
 ```
@@ -64,7 +64,7 @@ Actives the environment created in the previous step  <br/><br/>
    (your\_env\_name) python -m compas\_fab.rhino.install -v 6.0 
    ```
 Installs compas and compas_fab for rhino <br/><br/> 
-
+* * *
 3. Finally check to make sure that the installation worked by typing/copying and pasting the following code: <br/>
 
 ```console
