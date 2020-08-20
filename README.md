@@ -24,9 +24,9 @@ _In this part you will use the command prompt (terminal if on mac) to install co
 
 1. Open the anaconda prompt as an administrator <br/>
   a. Windows: type anaconda prompt in the windows search bar  <br/>
-  <img src="screenshots/commandPrompt.png" width="40%">
+     &nbsp; &nbsp; &nbsp; &nbsp;<img src="screenshots/commandPrompt.png" width="40%"> <br/>
   b. Mac: Open Launchpad, then click the terminal icon. <br/>
-  <img src="screenshots/terminal.png" width="40%">
+     &nbsp; &nbsp; &nbsp; &nbsp;<img src="screenshots/terminal.png" width="40%"> <br/>
 2. Now we will use the prompt to install compas and compas\_fab. In the anaconda prompt/terminal type in each of these lines found below (hitting enter after each line). You can optionally copy and paste **all** of the lines. Either use (_crtl v / cmd v_) depending on your computer. If that does not work try right clicking.
 
 ```console
@@ -43,30 +43,39 @@ For the last two steps you will need to allow the anaconda prompt/terminal to ma
 
 _Explained below is what each line is does:_
 
-```console (base) conda config --add channels conda-forge ``` <br/>
-   &nbsp; &nbsp; Adds the package conda-forge: _[https://conda-forge.org/#about](https://conda-forge.org/#about)_ <br/> <br/> 
- ```console (base) conda remove --name your\_env\_name --all ``` <br/> 
-  &nbsp; &nbsp;Removes any environment with that name in preparation to create new one with updated version of python compas and compas\_fab <br/>  <br/>
- ```console (base) conda create -n your\_env\_name python=3.6 compas compas\_fab --yes ``` <br/> 
-   &nbsp; &nbsp;Creates a new python environment and installs compas and compas\_fab <br/>  <br/>
- ```console (base) conda activate your\_env\_name``` <br/>
-   &nbsp; &nbsp;Actives the environment created in the previous step  <br/><br/> 
-   ```console (your\_env\_name) python -m compas\_rhino.install ``` <br/>
-   ```console (your\_env\_name) python -m compas\_fab.rhino.install -v 6.0 ``` <br/>
-    &nbsp; &nbsp;Installs compas and compas\_fab for rhino 
+```console 
+(base) conda config --add channels conda-forge 
+```
+   &nbsp; &nbsp; &nbsp; &nbsp;Adds the package conda-forge: _[https://conda-forge.org/#about](https://conda-forge.org/#about)_ <br/> <br/> 
+```console 
+(base) conda remove --name your\_env\_name --all 
+``` 
+  &nbsp; &nbsp; &nbsp; &nbsp;Removes any environment with that name in preparation to create new one with updated version of python compas and compas\_fab <br/>  <br/>
+ ```console 
+ (base) conda create -n your\_env\_name python=3.6 compas compas\_fab --yes 
+ ``` 
+   &nbsp; &nbsp; &nbsp; &nbsp;Creates a new python environment and installs compas and compas\_fab <br/>  <br/>
+ ```console 
+ (base) conda activate your\_env\_name
+ ``` 
+   &nbsp; &nbsp; &nbsp; &nbsp;Actives the environment created in the previous step  <br/><br/> 
+   ```console 
+   (your\_env\_name) python -m compas\_rhino.install 
+   (your\_env\_name) python -m compas\_fab.rhino.install -v 6.0 
+   ```
+   &nbsp; &nbsp; &nbsp; &nbsp; Installs compas and compas_fab for rhino <br/><br/> 
 
-1. Finally check to make sure that the installation worked by typing/copying and pasting the following code:
+3. Finally check to make sure that the installation worked by typing/copying and pasting the following code: <br/>
 
+```console
 python
-
-import compas\_fab
-
-compas\_fab.\_\_version\_\_ ![](RackMultipart20200820-4-13h5aym_html_be1334ad4f842977.png)
-
+import compas_fab
+compas_fab.__version__
+```
 You should see:
-
-&#39;0.11.0&#39;
-
+```console
+"0.11.0";
+```
 _In this step we are starting a python file, adding the package compas\_fab (which we installed in the previous step) and requesting the package&#39;s version. You should have installed the most current package. So a version of 0.11.0 or newer should be printed on the screen._
 
     
