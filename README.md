@@ -26,7 +26,7 @@ _In this part you will use the command prompt (terminal if on mac) to install co
      &nbsp; &nbsp; &nbsp; &nbsp;<img src="screenshots/commandPrompt.png" width="40%"> <br/>
     2. Mac: Open Launchpad, then click the terminal icon. <br/>
      &nbsp; &nbsp; &nbsp; &nbsp;<img src="screenshots/terminal.png" width="40%"> <br/>
-2. Now we will use the prompt to install compas and compas\_fab. In the anaconda prompt/terminal type in each of these lines found below (hitting enter after each line). You can optionally copy and paste **all** of the lines. Either use (_crtl v / cmd v_) depending on your computer. If that does not work try right clicking.
+2. Now we will use the prompt to install compas and compas\_fab. In the anaconda prompt/terminal type in each of these lines found below (hitting enter after each line). You can optionally copy and paste **all** of the lines. Either use (_crtl v / cmd v_) depending on your computer. If that does not work try right clicking. However before you do that you may want to change the name of the python environment. In this cause it is simply your_env_name but you could change this to be anything. **Just make sure you have the same environment name for every step**
 
 ```console
 conda config --add channels conda-forge
@@ -47,20 +47,20 @@ _Explained below is what each line is does:_
 ```
 Adds the package conda-forge: _[https://conda-forge.org/#about](https://conda-forge.org/#about)_ <br/> <br/> 
 ```console 
-(base) conda remove --name your\_env\_name --all 
+(base) conda remove --name your_env_name --all 
 ``` 
-Removes any environment with that name in preparation to create new one with updated version of python compas and compas\_fab <br/>  <br/>
+Removes any environment with that name in preparation to create new one with updated version of python compas and compas_fab <br/>  <br/>
  ```console 
- (base) conda create -n your\_env\_name python=3.6 compas compas\_fab --yes 
+ (base) conda create -n your_env_name python=3.6 compas compas_fab --yes 
  ``` 
-Creates a new python environment and installs compas and compas\_fab <br/>  <br/>
+Creates a new python environment and installs compas and compas_fab. Python environments are helpful because they store everything you need for a certain project. In this case, in our project our dependencies are compas and compas_fab so we include them in our environment. If we were to start another project we could then create a new environment that includes everything we need for that project.<br/>  <br/>
  ```console 
- (base) conda activate your\_env\_name
+ (base) conda activate your_env_name
  ``` 
 Actives the environment created in the previous step  <br/><br/> 
    ```console 
-   (your\_env\_name) python -m compas\_rhino.install 
-   (your\_env\_name) python -m compas\_fab.rhino.install -v 6.0 
+   (your_env_name) python -m compas_rhino.install 
+   (your_env_name) python -m compas_fab.rhino.install -v 6.0 
    ```
 Installs compas and compas_fab for rhino <br/><br/> 
 * * *
@@ -91,7 +91,7 @@ _In this part you will download github desktop. You will use this to get some re
     4) If you have an account sign in. If not it is recommended that you make one.
 2) Go to documents and find the GitHub folder
     1) This is where the repositories at default will be saved
-    2) If you want you can create a subfolder for the repositories from this class (see part 3. v.)
+    2) If you want you can create a subfolder for the repositories from this class (see part 3. v.). Make sure to not have spaces in the name of the subfolder and try to stay away from special characters as well. These specific characters can cause issues when referencing the paths (as we see in iv.)
 3) Now we will clone two repositories that will allow us to us grasshopper and python to communicate to the robots _(To clone each repository it is going to be the same process except for the step iii.)_
     1) to file and select clone repository
     2) In the new window select the URL option
